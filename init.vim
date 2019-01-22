@@ -4,6 +4,8 @@ let mapleader = " "
 nnoremap <Leader>w :w<CR> " save buffer
 nnoremap <Leader>q :q<CR> " quit
 nnoremap <Leader>a A
+nnoremap <Leader>y "*y
+nnoremap <Leader>p "*p
 
 " search settings
 set path+=**
