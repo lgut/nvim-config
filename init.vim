@@ -1,3 +1,21 @@
+" key bindings
+
+let mapleader = " "
+nnoremap <Leader>w :w<CR> " save buffer
+nnoremap <Leader>q :q<CR> " quit
+nnoremap <Leader>a A
+
+" search settings
+set path+=**
+set wildmenu
+
+" editor setings
+set number
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+" BEGIN VIM-PLUG
 call plug#begin('~/.local/share/nvim/plugged')
 
 " Comment
@@ -13,7 +31,3 @@ else
 endif
 let g:deoplete#enable_at_startup = 1
 
-" nerdtree
-Plug 'scrooloose/nerdtree'
-"init plugin system
-call plug#end()
