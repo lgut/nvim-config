@@ -2,6 +2,9 @@ set nocompatible
 filetype plugin on
 syntax on
 
+set spellfile=$HOME/.config/nvim/spell/en.utf-8.add
+set spell
+
 " key bindings
 
 "let mapleader = " "
